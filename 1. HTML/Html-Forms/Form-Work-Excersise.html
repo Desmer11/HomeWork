@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Excersise</title>
+        <style>
+            h1{
+                text-align: left;
+                left: 10%;
+            }
+            div{
+                text-align: left;
+                scale: 130%;
+                border: 1px solid black;
+                background: whitesmoke;
+                position: relative;
+                width:50%;
+                height:50%;
+                top: 200px;
+                left: 25%;
+            
+            }
+            label{
+              text-align: left;
+            }
+            input{
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div>
+            <p><b>Testform</b></p>
+            <hr>
+            <form action="" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Name" id="name" value="">
+                <br>
+                <label for="password" >Password</label>
+                <input type="password" name="password" placeholder="Password" id="password" value="">
+                <br>
+
+                <label>Gender</label>
+                <br>
+                <input type="radio" name="gender"  id="male" value="male">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender"  id="female" value="female">
+                <label for="female">Female</label>
+
+                <br>
+                <br>
+                
+                <select name="continent" id="continent">
+                    <p>Continent</p>
+                    <label>Continent</label>
+                    <option value="">Please Select</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Asia">Asia</option>
+                    <option value="North America">North America</option>
+                    <option value="South America">South America</option>
+                    <option value="Afrika">Afrika</option>
+                    <option value="Oceania">Oceania</option>
+                    <option value="Anarctica">Anarctica</option>
+                </select>
+
+               
+                <p>Meals</p>
+                <input type="checkbox" name="breakfast" id="breakfast" value="Breakfast" >
+                <label for="breakfast" >Breakfast</label>
+                <br>
+                <input type="checkbox" name="lunch" id="lunch" value="Lunch" >
+                <label for="Lunch" >Lunch</label>
+                <br>
+                <input type="checkbox" name="dinner" id="dinner" value="Dinner" >
+                <label for="dinner" >Dinner</label>
+                <br>
+
+                <label for="remark"></label>
+                <textarea name="remark" id="remark" cols="30" rows="5" placeholder="Leave a Remark"></textarea>    
+                <br>
+
+                <button type="reset" >Reset Data</button>
+                <button type="submit">Submit</button>
+            </form>  
+            <br>
+
+
+
+        </div>
+
+
+    
+    </body>
+</html>

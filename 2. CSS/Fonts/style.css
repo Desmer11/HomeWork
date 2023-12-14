@@ -1,0 +1,59 @@
+
+
+
+@font-face {
+    font-family: East Sea;
+    src: url(Fonts/EastSeaDokdo-Regular.ttf)
+}
+
+
+
+/* System font*/
+
+
+*{
+    font-family:;
+    
+    text-align: center;
+    line-height: 55px;
+
+}
+
+h1 {
+    font-family: 'East sea', sans-serif;
+    font-size: 70px;
+}
+
+p{
+    font-size: 20px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-shadow: -5px 5px 4px #bbb;
+
+
+}
+
+.p1::first-letter{
+    font-size: 5vw;
+
+}
+
+.font-sizes {
+    font-size: 30px;
+
+}
+
+.font-sizes > span {
+    font-size: 2vw;
+    
+}
+
+#vertical {
+    vertical-align: 20px;
+    background-color: aqua;
+
+}
+
+h3 {
+    text-shadow: -5px 5px 4px ;
+}

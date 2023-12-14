@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+}
+
+
+.Box {
+    
+    width: 1000px;
+    height: 1000px;
+    border: 40px solid black;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    scale: 90%;
+
+   
+    
+    
+  
+    
+}
+
+
+.box1 {
+    width: 200px;
+    height: 400px;
+    background-color: green;
+    position: absolute;
+    
+    order: 1;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 10px solid black;
+ 
+
+    
+
+}
+.box2 {
+    width: 800px;
+    height: 800px;
+    background-color: red;
+    order: 2;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 200px;
+    border: 10px solid black;
+    
+    
+    
+    
+
+
+ 
+
+
+}
+.box3 {
+    width: 190px;
+    height: 400px;
+    background-color: rgb(217, 0, 255);
+    position: absolute;
+    
+    order: 1;
+    margin-top: 400px;
+    margin-left: 0px;
+    border: 10px solid black;
+    
+
+
+
+
+    
+
+ 
+}
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    
+    order: 4;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 0px;
+    border: 10px solid black;
+  
+}
+.box5 {
+    width: 700px;
+    height: 200px;
+    background-color: #ddd;
+    float:left;
+    order: 5;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 200px;
+    border: 10px solid black;
+
+
+
+}
+
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    float:left;
+    order: 6;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 900px;
+    border: 10px solid black;
+
+
+}
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    float:left;
+    order: 7;
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 900px;
+    border: 10px solid black;
+
+}

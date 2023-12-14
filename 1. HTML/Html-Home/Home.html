@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <meta http-equiv="Content-Type" content="html, css, image map; charset=UTF-8">
+        <meta name="description" content="html, css, image map">
+        <meta name="keywords" content="Home, Abous Us, Contact, html, css, image map">
+        <style>
+           body {
+                background-image: url('images/Skopje.webp');
+                background-repeat: no-repeat;
+                background-size: cover;
+                }
+            p {
+                color: whitesmoke;
+            }
+            ul {
+                color: whitesmoke;
+            }
+            div{
+                color: whitesmoke;
+            }
+            .HomeButton {
+                top:10%;
+                left:45%;
+                width:100px;
+                height:40px;
+                position: absolute;
+                background: orange; 
+            }
+            .AboutUs {
+                top:20%;
+                left:35%;
+                width:100px;
+                height:40px;
+                position: absolute;               
+                background: orange; 
+            }
+            .Contact {
+                top:20%;
+                left:55%;
+                width:100px;
+                height:40px;
+                position: absolute;               
+                background: orange; 
+            }
+            .Github {
+                top:45%;
+                left: 45%;
+                width:100px;
+                height: 60px;
+                position: absolute;           
+                background: orange; 
+            }
+            label{
+                color: whitesmoke;
+            }
+            input{
+                
+            }
+        </style>
+    </head>
+    <body>
+        <p id="Top">Welcome to Home</p>
+        <ul>
+            <lI><a href="Home.html">Home</a></lI>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="https://github.com/Desmer11?tab=repositories">Jonas Homework Github</a></li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br>Saepe vitae labore eius delectus esse repellendus ratione ea,
+            <br>iusto doloremque, officiis doloribus at libero repellat,
+            <br>nihil a laudantium tenetur porro incidunt?</p>
+
+
+
+        <a href="Home.html"><button class="HomeButton">Home</button></a>
+        <a href="About Us.html"><button class="AboutUs">About Us</button></a>
+        <a href="Contact.html"><button class="Contact" >Contact</button></a>
+        <a href="https://github.com/Desmer11?tab=repositories"><button class="Github">Jonas Homework Github</button></a>
+
+
+        <form>
+            <label for="Username">Username</label>
+            <input type="text" name="Username" id="Username">
+            <br>
+            <label for="ID">ID</label>
+            <input type="text" name="ID" id="ID">
+            <br>
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password" placeholder="Password" required>
+            <br>
+            <input type="submit" value="submit" >
+        </form>
+
+         <button><a href="#Top">Go to Top</a></button>
+    </body>
+</html>

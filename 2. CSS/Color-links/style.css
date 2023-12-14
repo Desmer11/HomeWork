@@ -1,0 +1,47 @@
+body{
+    background-color: #fff;
+}
+h1 {
+    color: blue;
+    opacity: 0.5;
+}
+h2{
+    color: blueviolet;
+}
+
+.color-name {
+    color: red;
+}
+.hex-code {
+    color: #48d1e1;
+}
+.rgb-color{
+    color: rgb(10, 255, 255);
+    background-color: rgb(10, 10, 10, 0.5);
+    padding:20px ;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: grab;
+
+}
+
+#styling-hyperlinks:visited {
+    color: green;
+}
+#styling-hyperlinks:hover {
+    color: gold;
+}
+#styling-hyperlinks:focus{
+    color: blue;
+}
+#styling-hyperlinks:active {
+    color: black;
+}
+
+
+
+

@@ -1,0 +1,93 @@
+body {
+    background-color: #ddd;
+}
+
+
+
+.Static {
+    background-color: aquamarine;
+    z-index: 0;
+    border: 1px solid black ;
+
+}
+
+.Relative {
+    background-color: aqua;
+    position: relative;
+    bottom: 30px;
+    left: 150px;
+    z-index: 1;
+    border: 1px solid black;
+
+}
+
+.Absolute-parent {
+    position: relative;
+    background-color: aquamarine;
+    margin: 50px 0;
+    border: 1px solid black;
+
+}
+.Absolute-child {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: aqua;
+    z-index: 1;
+
+}
+
+.sub-header {
+    color: blue;
+    position: relative;
+    z-index: 2;
+}
+
+.Fixed-div {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#botbutton {
+    position: fixed;
+    bottom: 10px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+
+}
+#topbutton {
+    position: fixed;
+    top: 10px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+
+}
+
+.Sticky {
+    position: sticky;
+    background-color: aquamarine;
+    border: 1px solid black;
+
+}
+
+.Float-box{
+    background-color: aqua;
+    border: 1px solid black;
+
+}
+
+.float {
+
+    float: left;
+    width: 120px;
+    height: 80px;
+    margin: 10px;
+    background-color: aquamarine;
+    border: 1px solid black;
+
+}
+
+
+

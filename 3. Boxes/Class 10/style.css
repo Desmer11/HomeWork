@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    padding: 3em 0;
+    font-size: 30px;
+}
+ 
+
+h2 {
+    font-size: 30px;
+    color: #b3b3b3;
+}
+
+article {
+    background-color: white;
+    padding: 5em 0;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.parent {
+    border: 5px solid lightcoral;
+}
+
+.item {
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 5px;
+}
+
+/*Flex Display */
+
+.flex {
+    
+    display: flex;
+}
+
+/* Flex Direction*/
+
+.direction {
+    display: flex;
+
+
+    flex-direction: row-reverse;
+
+}
+
+
+.direction .item{
+    width: 50px;
+
+}
+
+/* Flex Wrap */
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap .item {
+    width: 600px;
+}
+
+/* Justify */
+
+.justify {
+    display: flex;
+    flex-direction: column;
+
+    /* Flex-start, Flex-end, Flex-center,
+    Space-between, Space-evenly, */
+    
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.justify .item {
+    width: 50px;
+
+}
+
+/* Align Items*/
+
+.align-items {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.align-items .item {
+    width: 50px;
+}
+
+.align-items .item:nth-child(1) {
+    align-self: stretch;
+
+}
+
+/*Align Content - Only works when we have overflow
+and the flex-wrap property is set to wrap*/
+
+.align-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    height: 400px;
+}
+
+.align-content .item {
+    width: 300px;
+    height: 50px;
+
+}
+
+/* Item Order */
+
+.item-order {
+    display: flex;
+
+}
+
+.item-order .item {
+    width: 50px;
+}
+
+.item-order .item:nth-child(1) {
+    order: 3;
+}
+
+.item-order .item:nth-child(2) {
+    order: 5;
+}
+.item-order .item:nth-child(3) {
+    order: 1;
+}
+.item-order .item:nth-child(4) {
+    order: 0m;
+}
+.item-order .item:nth-child(5) {
+    order: 4;
+}
+
+/* Item Grow */
+
+.grow {
+    display: flex;
+
+}
+.grow .item {
+    flex-grow: 1;
+}
+
+.grow .item:nth-child(1) {
+    flex-grow: 1;
+}
+.grow .item:nth-child(2) {
+    flex-grow: 2;
+}
+.grow .item:nth-child(3) {
+    flex-grow: 3;
+}
+.grow .item:nth-child(4) {
+    flex-grow: 4;
+}
+.grow .item:nth-child(5) {
+    flex-grow: 5;
+}
+
+/* Item Shrink */
+
+.shrink {
+    display: flex;
+}
+.shrink .item {
+    width: 500px;
+    flex-shrink: 1;
+}
+
+.shrink .item:nth-child(1) {
+    flex-shrink: 1;
+}
+.shrink .item:nth-child(2) {
+    flex-shrink: 2;
+}
+.shrink .item:nth-child(3) {
+    flex-shrink: 3;
+}
+.shrink .item:nth-child(4) {
+    flex-shrink: 4;
+}
+.shrink .item:nth-child(5) {
+    flex-shrink: 5;
+}
+
+/* Item Basis */
+
+.basis {
+    display: flex;
+}
+.basis .item {
+    width: 500px;
+    flex-basis: 1;
+}
+
+.basis .item:nth-child(1) {
+    flex-basis: 1;
+}
+.basis .item:nth-child(2) {
+    flex-basis: 2;
+}
+.basis .item:nth-child(3) {
+    flex-basis: 3;
+}
+.basis .item:nth-child(4) {
+    flex-basis: 4;
+}
+.basis .item:nth-child(5) {
+    flex-basis: 5;
+}
+
+/* Item Shorthand */
+
+.shorthand {
+    display: flex;
+}
+.shorthand .item {
+    width: 300px;
+    flex: 1;
+}
+
+/*  */
+
+.shorthand .item:nth-child(1) {
+    flex: 1 1 100px;
+}
+.shorthand .item:nth-child(2) {
+    flex: 2 2 100px;
+}
+.shorthand .item:nth-child(3) {
+    flex: 3 3 100px;
+}
+.shorthand .item:nth-child(4) {
+    flex: 4 4 100px;
+}
+.shorthand .item:nth-child(5) {
+    flex: 5 5 100px;
+}
+
+

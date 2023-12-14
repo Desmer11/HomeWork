@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <!--Login Form-->
+    <form action="" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Username" id="username" value="" >
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" id="password" value="" required>        
+        <!--Input and Button For Same Submit Action Value For Input Meaning Text For Button/input -->
+        <input type="submit" value="Click Me">
+        <button type="submit">Click Me</button>
+    </form>
+    <form action="" method="post">
+        <label for="comment">Leave a Comment</label>
+        <textarea id="comment" name="comment" cols="5" rows="5" placeholder="Write Your Comment Here"></textarea>
+        <button type="submit">Click Me</button>
+    </form>
+    <form>
+        <p>Pick Your Favourite Genre:</p>   
+        <fieldset>
+            <legend>Radio Inputs</legend>
+            <p>Pick Your Favourite Genre:</p>
+            <input type="radio" name="genre" id="rock" value="Rock">
+            <label for="rock">Rock</label>
+            <br>
+            <input type="radio" name="genre" id="ledzeppelin" value="Led Zeppelin">
+            <label for="ledzeppelin">Led Zeppelin</label>
+            <br>
+            <input type="radio" name="genre" id="jazz" value="Jazz">
+            <label for="jazz">Jazz</label>
+        </fieldset>
+    </form> 
+    <form action="" method="post">
+        <fieldset>
+            <legend>Checkbox Inputs</legend>
+            <p>Pick Your Streaming Service or Services</p>
+            <input type="checkbox" name="music-service" id="apple" value="Apple Music" >
+            <label for="apple" >Apple Music</label>
+            <br>
+            <input type="checkbox" name="music-service" id="google" value="Google Music" >
+            <label for="google" >Google Music</label>
+            <br>
+            <input type="checkbox" name="music-service" id="spotify" value="Spotify" >
+            <label for="spotify" >Spotify</label>       
+        </fieldset>
+        <fieldset>
+            <legend>Select Input</legend>
+            <p>What Device Do You Prefer</p>
+            <select name="device" id="device" >
+                <option value="">Please Select</option>
+                <option value="phone" >Phone</option>
+                <option value="computer">Computer</option>
+                <option value="walkman">Walkman</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Multiple Select Options</legend>
+            <label>Do You Play Any Instruments</label>
+            <select id="instruments" name="instruments" multiple size="5">
+                <option value="Guitar">Guitar</option>
+                <option value="Drums">Drums</option>
+                <option value="Bass">Bass</option>
+                <option value="Piano">Piano</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Songs</legend>     
+            <label for="song">Upload Your Song</label>
+            <input type="file" name="song" id="song">
+            <br>
+            <!--Hidden Input-->
+            <input type="hidden" id="userid" value="1">
+            <button type="reset" >Reset Data</button>
+            <button type="submit">Send</button>
+        </fieldset>
+    </form>
+    <form action="" method="post">
+        <label for="email">Email</label>
+        <input type="email" name="personal-email" id="email"  >
+        <br>
+        <label id="website" >Url</label>
+        <input type="url" id="website" >
+        <br>
+        <label id="phone" >Phone Number</label>
+        <input type="tel" id="phone">
+        <br>
+        <label id="classes">Number of Classes</label>
+        <input type="number" id="classes" min="1" max="11" step="0.5" >
+        <br>
+        <label for="date">Date</label>
+        <input type="date" id="date">      
+        <br>
+        <label for="alarm">Alarm</label>
+        <input type="time" id="alarm">
+        <br>
+        <label for="color">Color</label>
+        <input type="color" id="color">
+        <br>
+        <label for="volume">Volume</label>
+        <input type="range" id="volume">
+        <br>
+        <label for="search">Search</label>
+        <input type="search" id="search">
+        <br>
+
+
+
+        <button type="submit" >Submit</button>
+    </form>  
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+
+
+
+
+</html>
